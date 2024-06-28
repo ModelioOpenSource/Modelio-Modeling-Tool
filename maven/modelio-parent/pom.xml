@@ -16,7 +16,7 @@
 
 		<!-- Compilation settings -->
 		<tycho-groupid>org.eclipse.tycho</tycho-groupid>
-		<tycho-version>2.2.0</tycho-version>
+		<tycho-version>4.0.8</tycho-version>
 		<maven.compiler.target>11</maven.compiler.target>
 		<maven.compiler.source>11</maven.compiler.source>
 		<javadesigner.annotation.version>2.2.0</javadesigner.annotation.version>
@@ -278,7 +278,7 @@
 				<plugin>
 					<groupId>org.codehaus.mojo</groupId>
 					<artifactId>sonar-maven-plugin</artifactId>
-					<version>3.4.1.1168</version>
+					<version>4.0.0.4121</version>
 				</plugin>
 			</plugins>
 		</pluginManagement>
@@ -305,7 +305,7 @@
 					<plugin>
 						<groupId>org.codehaus.mojo</groupId>
 						<artifactId>properties-maven-plugin</artifactId>
-						<version>1.0-alpha-2</version>
+						<version>1.2.1</version>
 					</plugin>
 					<plugin>
 						<groupId>org.eclipse.tycho</groupId>
@@ -318,7 +318,6 @@
 						<plugin>
 							<groupId>org.codehaus.mojo</groupId>
 							<artifactId>properties-maven-plugin</artifactId>
-							<version>1.0-alpha-2</version>
 							<executions>
 								<execution>
 									<phase>validate</phase>
@@ -362,7 +361,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-antrun-plugin</artifactId>
-						<version>1.7</version>
+						<version>3.1.0</version>
 						<executions>
 							<execution>
 								<phase>validate</phase>
